@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>WebCat</title>
+<style>
+body{
+  background:rgba(12,15,28,6);
+  }
+h1{text-align:center;
+  color:yellow;
+  }
+ p{text-align:center;
+   margin:35px;
+   color:yellow;
+   }
+ img{
+   width:100%;
+   }
+ #div{
+   display:block;
+   margin:0 auto;
+   width:100px;
+   background:rgba(126,125,128,0.6);
+   }
+ 
+</style>
+  </head>
+  <body>	
+  
+  <img src="26.jpg"/>
+	<h1 >你好</h1>
+	<p >欢迎来到，联合国网站</p> 
+
+ <div onclick="a()" id="div">点击进入网站</div>
+ <script>
+ function a(){
+ window.location.href="1.html";
+ }
+</script>
+ <script src='https://cdn.bootcss.com/sweetalert/2.1.0/sweetalert.min.js'></script>
+    <script>
+  
+   
+   
+   swal('公告','欢迎访问本网站','success');
+   
+  </script>
+  </body>
+</html>
